@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+class Rectangle {
+private:
+    float length;
+    float width;
+
+public:
+    Rectangle(float l, float w) : length(l), width(w) {
+    }
+    float calculate_area() {
+        return length * width;
+    }
+
+    float calculate_perimeter() {
+        return 2 * (length + width);
+}
+}
